@@ -11,6 +11,7 @@ library(ggpmthemes)
 library(ggdist)
 library(mvtnorm)
 library(bipartite)
+library(plyr)
 
 
 df <- list.files(path = "Data/Bernoulli_fruitset", pattern = "nseeds_fruitset_", full.names = T, recursive = TRUE) 
